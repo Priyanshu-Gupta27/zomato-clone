@@ -13,9 +13,9 @@ const PORT = process.env.PORT || 8001;
 
 app.use(cors({
   origin: [
-    "http://localhost:5173", // local testing
-    "https://zomato-clone-frontend-psi.vercel.app/", // frontend deployment
-    "https://zomato-clone-admin-liard.vercel.app/" // admin deployment
+    "http://localhost:5173",
+    "https://zomato-clone-frontend-psi.vercel.app",
+    "https://zomato-clone-admin-liard.vercel.app"
   ],
   credentials: true
 }));
